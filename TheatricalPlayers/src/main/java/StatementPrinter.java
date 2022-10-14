@@ -100,6 +100,7 @@ public class StatementPrinter {
     result += String.format("You earned %s credits\n", volumeCredits);
 
     result = stringToHTMLString(result);
+    //test
     return result;
   }
 
