@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="StatementPrinterTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-10-14T12:57:09" hostname="DESKTOP-MOPVCEG" time="5.474">
+  <properties/>
+  <testcase name="exampleStatement()" classname="StatementPrinterTests" time="5.431"/>
+  <testcase name="statementWithNewPlayTypes()" classname="StatementPrinterTests" time="0.037"/>
+  <testcase name="mixed()" classname="StatementPrinterTests" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
