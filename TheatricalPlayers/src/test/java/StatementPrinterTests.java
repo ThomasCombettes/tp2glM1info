@@ -47,7 +47,7 @@ public class StatementPrinterTests {
         Map<String, Play> plays = Map.of(
                 "cinema-exp",  new Play("Ccinema-exp", "test-1"),
                 "as-like", new Play("As You Like It", "pastoral"),
-                "ss-mechant", new Play("Meccchant", "pas-bienne")
+                "ss-mechant", new Play("Meccchant", "tragedy")
                 );
 
         Invoice invoice = new Invoice("BigCo", List.of(
@@ -58,6 +58,22 @@ public class StatementPrinterTests {
 
         StatementPrinter statementPrinter = new StatementPrinter();
 
+        Assertions.assertThrows(Error.class, () -> {
+            statementPrinter.print(invoice, plays);
+        });
+    }
+
+    @Test
+    void test() {
+        Map<String, Play> plays = Map.of(
+                "henry-v",  new Play("Henry V", "history"),
+                "as-like", new Play("As You Like It", "pastoral"));
+
+        Invoice invoice = new Invoice("BigCo", List.of(
+                new Performance("henry-v", 53),
+                new Performance("as-like", 55)));
+
+        StatementPrinter statementPrinter = new StatementPrinter();
         Assertions.assertThrows(Error.class, () -> {
             statementPrinter.print(invoice, plays);
         });
