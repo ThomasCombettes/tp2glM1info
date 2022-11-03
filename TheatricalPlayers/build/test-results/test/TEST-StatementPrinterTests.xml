@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="StatementPrinterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-11-03T16:32:17" hostname="DESKTOP-MOPVCEG" time="5.988">
+<testsuite name="StatementPrinterTests" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-11-03T18:21:19" hostname="DESKTOP-MOPVCEG" time="5.568">
   <properties/>
-  <testcase name="exampleStatement()" classname="StatementPrinterTests" time="5.948"/>
-  <testcase name="statementWithNewPlayTypes()" classname="StatementPrinterTests" time="0.036"/>
-  <testcase name="test()" classname="StatementPrinterTests" time="0.002"/>
-  <testcase name="mixed()" classname="StatementPrinterTests" time="0.001"/>
+  <testcase name="exampleStatement()" classname="StatementPrinterTests" time="5.511"/>
+  <testcase name="statementWithNewPlayTypes()" classname="StatementPrinterTests" time="0.046"/>
+  <testcase name="test()" classname="StatementPrinterTests" time="0.003"/>
+  <testcase name="mixed()" classname="StatementPrinterTests" time="0.004"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
